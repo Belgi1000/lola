@@ -1,0 +1,267 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+}
+
+em {
+  color: white;
+}
+
+
+/* heading */
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 10%;
+  text-align: left;
+  padding: 0 15% 7%;
+
+}
+
+
+
+.big-heading{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+}
+
+.heading-text{
+  color: #dedede;
+}
+
+
+.section-heading{
+  font-size: 2rem;
+  line-height: 1.5
+}
+
+
+.container-fluid {
+padding: 5% 0 5%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+
+}
+
+.download-buttons {
+  margin: 5% 5% 5% 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: lighter;
+}
+
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.navbar {
+  padding: 0 0 3rem 0;
+}
+
+.lola{
+  width: 60%;
+  position:  absolute;
+  right: 5%;
+
+}
+
+/* car evaluation */
+
+/* benefitbox */
+
+.benefitbox{
+  text-align: left;
+  padding-top: 5%;
+
+}
+
+.boxes{
+  padding: 5% 5% 5% 0;
+}
+
+/* ************MEDIA************ */
+
+
+@media (max-width:1028px) {
+  .iphone {
+    width: 30%;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+
+/* features */
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.fasi {
+  color: #ff4c68;
+  font-size: 2em;
+}
+
+.icon:hover {
+  color: #ff4c38;
+}
+
+.blurbtext {
+  padding: 0 5%;
+}
+
+/* benefits two containers */
+
+.benetwo{
+width: 100%;
+}
+
+.whatyoucan{
+  background-color: #cad8de;
+}
+
+/* testimonials */
+
+#calculator {
+  background-color: white;
+  padding-bottom: 5%;
+}
+
+.calculaor-text{
+  font-size: 2rem;
+  line-height: 1.5;
+  color:white;
+}
+#press {
+  background-color: #ff4c38;
+  padding: 5% 15% 3% 15%;
+}
+
+.doggy {
+  width: 13%;
+  border-radius: 100%;
+  margin-top: 30px;
+}
+
+.promoimg {
+  width: 14%;
+  margin: 0 20px;
+}
+
+.carousel-item {
+  height: 300px;
+  padding: 5% 15% 3% 15%;
+}
+
+#caroutesti {
+  padding-bottom: 50px;
+}
+
+.carousel-inner {
+  padding-bottom: 7%;
+}
+
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+  padding: 8% 20% 11%;
+}
+
+
+/* calculator */
+
+.mat-input-element{
+  position: absolute;
+}
+
+
+
+/* footer */
+
+#footer {
+  padding: 5% 20%;
+}
+
+.fabi {
+  padding: 0 2% 4%
+}
+
+
+/* range slider */
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}

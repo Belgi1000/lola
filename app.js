@@ -55,9 +55,7 @@ noUiSlider.create(slider, {
 // //   console.log(userName, userLastName, userEmail);
 // //
 // //
-// //   // ba4cf72a9c5a972025689c66029b87b3-us20
 //
-//   // 1fa92f0ec2
 //
 // // var headUrl = "https://apiv2.bitcoinaverage.com/indices/global/ticker/";
 // // var crypto = req.body.crypto;
